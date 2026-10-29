@@ -56,7 +56,7 @@ ${F.map((f,i)=>g(f[1],f[2],dl[i],T[f[0]](f[1],f[2],f[3],f[4]))).join("")}
 ${GY.map((p,i)=>gy(p[0],p[1],3.2+i*.05)).join("")}
 <path class="wr" d="M92 266L228 266L194 368L126 368Z" fill="#c99a6b" stroke="#a3703f" stroke-width="2"/><path class="wr" d="M92 266L160 302L228 266" fill="#dcb488" stroke="#a3703f" stroke-width="2"/>
 <g class="wr"><ellipse cx="139" cy="305" rx="21" ry="11" transform="rotate(-20 139 305)" fill="#ffb3d9"/><ellipse cx="181" cy="305" rx="21" ry="11" transform="rotate(20 181 305)" fill="#ffb3d9"/><circle cx="160" cy="306" r="7" fill="#ff8fc4"/></g></g></svg>
-<div class="late"><h1>Un ramito para ti </h1><p>Nunca me dejas que te dé un ramo de flores, ${NAME}. es virtual, pero espero que esto cuente. </p><button class="btn" id="re">Verlo otra vez</button></div>`;
+<div class="late"><h1>Un ramito para ti </h1><p>Nunca me dejas que te dé un ramo de flores, ${NAME}. Es virtual, pero espero que esto también cuente. </p><button class="btn" id="re">Verlo otra vez</button></div>`;
 $("re").onclick=play;setTimeout(confetti,4600)}
 function confetti(){if(matchMedia("(prefers-reduced-motion:reduce)").matches)return;const c=$("cv"),x=c.getContext("2d");c.width=innerWidth;c.height=innerHeight;const col=["#ffb3d9","#ffd48a","#9be3c0","#b9a6ff","#8fd0ff"];
 const p=Array.from({length:110},()=>({x:Math.random()*c.width,y:-20-Math.random()*c.height*.5,r:4+Math.random()*6,vy:2+Math.random()*3,vx:-1+Math.random()*2,c:col[Math.random()*5|0],a:Math.random()*6}));let f=0;
